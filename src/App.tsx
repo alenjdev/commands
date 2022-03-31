@@ -28,30 +28,30 @@ export class App extends Component<{}, IAppState> {
         <CommandIssuer
           device={device!}
           label="Override Sick Safety"
-          command="set.sick.status"
+          command="set_sick_status"
           params="override sick safety"
         />
         <CommandIssuer
           device={device!}
           params="reset sick"
-          command="set.sick.status"
+          command="set_sick_status"
           label="reset sick"
         />
         <CommandIssuer
           device={device!}
-          command="set.sick.status"
+          command="set_sick_status"
           params="switch safety field"
           label="Switch safety Fields"
         />
         <CommandIssuer
           device={device!}
-          command="set.sick.status"
+          command="set_sick_status"
           params="reset all"
           label="Reset All"
         />
         <CommandIssuer
           device={device!}
-          command="set.sick.status"
+          command="set_sick_status"
           params="autocalibrate"
           label="Autocalibrate"
         />
