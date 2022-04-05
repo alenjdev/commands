@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Device } from "@formant/data-sdk";
-import { Button } from "../common/Button";
+import { Button } from "@alenjdev/ui-sdk";
 
 interface ICommandIssuerProps {
   device: Device;
